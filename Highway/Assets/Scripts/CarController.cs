@@ -64,15 +64,15 @@ public class CarController : MonoBehaviour
     private void GetInputs()
     {
         /*    PC: Arrow    */
-        /*inputX = Input.GetAxis("Horizontal");
+        inputX = Input.GetAxis("Horizontal");
         inputY = Input.GetAxis("Vertical");
-        isBraking = Input.GetKey(KeyCode.Space);*/
+        isBraking = Input.GetKey(KeyCode.Space);
 
 
         /*    Mobile: Accelerometer    */
-        inputX = Input.acceleration.x * 2;
+        /*inputX = Input.acceleration.x * 2;
         inputY = AccelerateButton.forword;
-        isBraking = BrakeButton.stop;
+        isBraking = BrakeButton.stop;*/
 
 
         /*    Mobile: Buttons    */
